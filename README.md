@@ -42,3 +42,5 @@ Steps
 
 Deploy on Netlify
 Create HTML Elements
+-Write Functions for fetching from API
+- 

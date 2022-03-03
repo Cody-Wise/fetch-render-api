@@ -20,10 +20,14 @@ async function loadPokedex() {
     for (let pokemon of pokedex) {
         const clone = template.content.cloneNode(true);
 
-        const name = clone.querySelector('h2');
+        const title = clone.querySelector('h2');
+
+        const name = clone.querySelector('h3');
         const image = clone.querySelector('img');
-        const type = clone.querySelector('h6');
+        const type = clone.querySelector('h4');
         audio.play();
+
+        title.textContent = 'Pokemon Characters';
 
         name.textContent = 'Name: ' + pokemon.pokemon;
 
@@ -46,10 +50,15 @@ async function loadStarWars() {
         
         const clone = template.content.cloneNode(true);
 
-        const name = clone.querySelector('h2');
+        const title = clone.querySelector('h2');
+
+        const name = clone.querySelector('h3');
     
-        const type = clone.querySelector('h6');
+        const type = clone.querySelector('h4');
+    
         audio.play();
+
+        title.textContent = 'Star Wars Characters';
 
         name.textContent = ' Name: ' + person.name;
 

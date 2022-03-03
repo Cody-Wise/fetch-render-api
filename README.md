@@ -42,6 +42,6 @@ Watch for changing value
 
 - Deploy on Netlify
 - Create HTML Elements
--Write Functions for fetching from API
+- Write Functions for fetching from API
 - Complete functions for displaying both Pokemon and Star Wars Characters
 - Style output

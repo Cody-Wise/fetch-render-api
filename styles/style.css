@@ -88,3 +88,8 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.star-wars{
+    background-image: url(/assets/star-wars-background.jpg);
+    color: yellow;
+}

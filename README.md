@@ -29,18 +29,19 @@ Additional considerations:
 
 ![api wireframe](/assets/wireframe.jpg 'wirefram for api demo')
 
-HTML Elements
+# HTML Elements
 
 - Select with options(pokemon, star wars)
 - UL element for containing each character (each character will be attached to an li element)
 
-Events
+# Events
 
 Watch for changing value
 
-Steps
+# Steps
 
-Deploy on Netlify
-Create HTML Elements
+- Deploy on Netlify
+- Create HTML Elements
 -Write Functions for fetching from API
-- 
+- Complete functions for displaying both Pokemon and Star Wars Characters
+- Style output

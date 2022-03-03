@@ -41,32 +41,33 @@ async function loadStarWars() {
     const starWars = await getStarWarsPeople();
     
     list.classList.add('star-wars');
-   
+
     for (let person of starWars) {
         
         const clone = template.content.cloneNode(true);
-       
+
         const name = clone.querySelector('h2');
     
         const type = clone.querySelector('h6');
         audio.play();
-       
+
         name.textContent = ' Name: ' + person.name;
-  
+
         type.textContent = ' Hair color: ' + person.hair_color;
-      
+
         /// 6. Append the clone to the list element
         list.appendChild(clone);
-      
+
     
     }
 }
 
-loadPokedex();
+// loadPokedex();
 
 // set event listeners 
-selectEl.addEventListener('change', async (event) => {
+selectEl.addEventListener('change', async(event) => {
     const selected = event.target.value;
+    list.classList.remove('star-wars', 'pokemon');
 
     if (selected === 'none'){
         list.innerHTML = '';
@@ -89,7 +90,7 @@ selectEl.addEventListener('change', async (event) => {
               
         list.innerHTML = '';
         errorElement.innerHTML = '';
-        await loadStarWars()
+        await loadStarWars();
     }
 
 });

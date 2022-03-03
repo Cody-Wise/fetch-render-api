@@ -24,3 +24,21 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## Plan
+
+![api wireframe](/assets/wireframe.jpg 'wirefram for api demo')
+
+HTML Elements
+
+- Select with options(pokemon, star wars)
+- UL element for containing each character (each character will be attached to an li element)
+
+Events
+
+Watch for changing value
+
+Steps
+
+Deploy on Netlify
+Create HTML Elements

@@ -94,9 +94,9 @@ selectEl.addEventListener('change', async(event) => {
 
     } else if (selected === 'star-wars') {
         audio.src = './assets/star-wars.wav';
-       
     
-              
+    
+            
         list.innerHTML = '';
         errorElement.innerHTML = '';
         await loadStarWars();
